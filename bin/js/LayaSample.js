@@ -13,6 +13,7 @@ var GameMain = (function () {
         container.addChild(ani);
         ani.loadAtlas('1.json');
         ani.play();
+        ani.pos(300, 0);
         var d1 = 484;
         var d2 = 1438;
         var d3 = 950;
@@ -27,7 +28,7 @@ var GameMain = (function () {
         container2.addChild(ani2);
         ani2.loadAtlas('1.json');
         ani2.play();
-        ani2.pos(1148, 479);
+        ani2.pos(948, 479);
     }
     return GameMain;
 }());
